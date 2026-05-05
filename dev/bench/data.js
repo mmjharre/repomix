@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777540259753,
+  "lastUpdate": 1777978284465,
   "repoUrl": "https://github.com/mmjharre/repomix",
   "entries": {
     "Repomix Performance": [
@@ -45,6 +45,51 @@ window.BENCHMARK_DATA = {
             "range": "±392",
             "unit": "ms",
             "extra": "Median of 19 runs\nQ1: 1738ms, Q3: 2130ms\nAll times: 1706, 1724, 1726, 1727, 1738, 1745, 1756, 1770, 1775, 2067, 2085, 2106, 2118, 2118, 2130, 2139, 2151, 2232, 2239ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b743c9659c81b5229a56df672221ea17f3c3bbdb",
+          "message": "Merge pull request #1543 from yamadashy/chore/codex-review-loop-command\n\nchore(agents): Add codex-review-loop command",
+          "timestamp": "2026-05-05T16:22:31+09:00",
+          "tree_id": "7ca2cc36fe32048c8cb1321fbd3d94202f966783",
+          "url": "https://github.com/mmjharre/repomix/commit/b743c9659c81b5229a56df672221ea17f3c3bbdb"
+        },
+        "date": 1777978283996,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 4629,
+            "range": "±1913",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 3858ms, Q3: 5771ms\nAll times: 3257, 3270, 3277, 3569, 3622, 3673, 3771, 3858, 4023, 4144, 4161, 4211, 4226, 4252, 4267, 4629, 4647, 4813, 4960, 5079, 5186, 5513, 5771, 6311, 6471, 6640, 6769, 6994, 7100, 7371ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 4420,
+            "range": "±43",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 4401ms, Q3: 4444ms\nAll times: 4365, 4368, 4390, 4392, 4397, 4401, 4402, 4407, 4411, 4418, 4420, 4423, 4437, 4440, 4440, 4444, 4448, 4466, 4474, 4484ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1833,
+            "range": "±46",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1808ms, Q3: 1854ms\nAll times: 1766, 1786, 1790, 1796, 1804, 1808, 1809, 1820, 1820, 1833, 1833, 1836, 1840, 1842, 1846, 1854, 1855, 1855, 1855, 1872ms"
           }
         ]
       }
